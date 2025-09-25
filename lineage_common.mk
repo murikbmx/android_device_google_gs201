@@ -42,3 +42,6 @@ include hardware/google/pixel/touch/device.mk
 
 # ViperFX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/app/ViPER4AndroidFX/ViPER4AndroidFX.apk
